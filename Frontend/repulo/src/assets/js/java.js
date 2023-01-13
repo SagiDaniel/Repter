@@ -1,4 +1,5 @@
 'use strict';
+
 function check(){
 const check = document.getElementById("vasar").checked;
 if(check==false)
@@ -60,4 +61,15 @@ function torles(){
     for (var i = 0; i < inputs.length; i++) {
     inputs[i].value = "";
   }
+}
+function utasokvalasztas(){
+  const check = document.getElementById("utasok");
+if(check.value  =="egyeb")
+{
+    document.getElementById("utasokegyeb").disabled = false;
+}
+else
+{
+    document.getElementById("utasokegyeb").disabled = false;
+}
 }

@@ -13,7 +13,7 @@ F494AB
 }
  
 .dropdown-menu {
-  background:#FFBAA2
+  background:#F494AB
 }
 a.dropdown-toggle {
   color:#365367 !important
@@ -25,7 +25,7 @@ a.dropdown-item:hover {
   color:#365367;
 }
 .nav-item a:hover {
-  color:#fff
+  color:#F494AB
 }
 .nav-item{
   min-width:12vw;
@@ -70,4 +70,7 @@ form{
 }
 .center{
   text-align: center;
+}
+form label,h6{
+  color: white;
 }

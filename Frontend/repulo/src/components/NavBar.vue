@@ -1,20 +1,8 @@
-<!-- jaratok es utanna foglalas-->
-<!DOCTYPE html>
-<html lang="hu">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/style.css">
-    <title>Reptér</title>
-</head>
-<body>
-	<div id="mainNavigation">
+<template>
+<div id="mainNavigation">
     <nav role="navigation">
       <div class="py-3 text-center border-bottom">
-       <img src="img/repulo.png" alt="" class="invert">
+       <img src="src/assert/img/repulo.png" alt="" class="invert">
       </div>
     </nav>
     <div class="navbar-expand-md">
@@ -29,10 +17,10 @@
             <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="repulo.html">Repülők</a>
+            <a class="nav-link active" aria-current="page" href="repulo.html">Repülők</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="jaratok.html">Járatok</a>
+            <a class="nav-link" href="jaratok.html">Járatok</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -47,8 +35,4 @@
       </div>
     </div>
   </div>
-
-  
-  <script src="js/java.js"></script>
-</body>
-</html>
+</template>
