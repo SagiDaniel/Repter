@@ -31,12 +31,13 @@ a.dropdown-item:hover {
   min-width:12vw;
 }
 #mainNavigation {
-  position:fixed;
+
+  position:sticky;
   top:0;
   left:0;
   width:100%;
   z-index:123;
-  padding-bottom:120px;
+  margin-bottom:1%;
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+100;Neutral+Density */
 background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
@@ -48,6 +49,25 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', e
   background:#F9F4E6;
   padding:12px;
 }
+
 body{
     background-color: #F9F4E6;
+}
+
+.kepek{
+  width:100%;
+  height: 1000px;
+}
+form{
+  background-color: #365367;
+  margin: 0% 25% 0% 25%;
+  border-radius: 30px;
+  padding: 30px;
+}
+
+.right{
+  float: right;
+}
+.center{
+  text-align: center;
 }
