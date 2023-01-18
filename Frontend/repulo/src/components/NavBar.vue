@@ -2,7 +2,7 @@
 <div id="mainNavigation">
     <nav role="navigation">
       <div class="py-3 text-center border-bottom">
-       <img src="src/assert/img/repulo.png" alt="" class="invert">
+       <img src="../assets/img/repulo.png" alt="" class="invert">
       </div>
     </nav>
     <div class="navbar-expand-md">
@@ -14,20 +14,23 @@
       <div class="text-center mt-3 collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav mx-auto ">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
+            
+            <router-link class="nav-link" to="/">Index</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="repulo.html">Repülők</a>
+            
+            <router-link class="nav-link" to="/Repulo">Repülők</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="jaratok.html">Járatok</a>
+            <router-link class="nav-link" to="/Jaratok">Járatok</router-link>
+            <li><router-link class="dropdown-item" to="/Foglalas">Foglalás</router-link></li>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Profil
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="adatok.html">Foglalás</a></li>
+              <li>><router-link class="dropdown-item" to="/Foglalas">Foglalás</router-link></li>
               <li><button onclick="bezar()" class="dropdown-item">Bezárás</button></li>
             </ul>
           </li>
@@ -35,5 +38,16 @@
       </div>
     </div>
   </div>
+
+
 </template>
-<router-link to=""></router-link>
+<script>
+import "../assets/js/java.js"
+import {RouterLink} from "vue-router";
+export default {
+    components: {
+RouterLink
+
+}
+}
+</script>
