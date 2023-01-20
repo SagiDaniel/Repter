@@ -23,16 +23,10 @@
           </li>
           <li class="nav-item">
             <router-link class="nav-link" to="/Jaratok">Járatok</router-link>
-            <li><router-link class="dropdown-item" to="/Foglalas">Foglalás</router-link></li>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Profil
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li>><router-link class="dropdown-item" to="/Foglalas">Foglalás</router-link></li>
+          <li class="nav-item">
+              <li><router-link class="dropdown-item" to="/Foglalas">Foglalás</router-link></li>
               <li><button onclick="bezar()" class="dropdown-item">Bezárás</button></li>
-            </ul>
           </li>
         </ul>
       </div>
