@@ -1,5 +1,4 @@
 <template>
-Foglalas
 <Form>
     <h3 class="center">Foglalás</h3>
     <hr>

@@ -59,3 +59,41 @@ else
     document.getElementById("utasokegyeb").disabled = false;
 }
 }
+
+
+/*
+
+// JavaScript fájl
+
+// Lekérdezési URL megadása
+const url = 'https://example.com/data.json';
+
+// fetch() függvény használata a lekérdezéshez
+fetch(url)
+  .then(response => response.json()) // adatok json formátumba való átalakítása
+  .then(data => {
+    // Adatok feldolgozása és megjelenítése az HTML oldalon
+    const table = document.querySelector('table');
+    data.forEach(item => {
+      const row = document.createElement('tr');
+      row.innerHTML = `<td>${item.name}</td><td>${item.age}</td>`;
+      table.appendChild(row);
+    });
+  })
+  .catch(error => {
+    // Hiba esetén hibaüzenet megjelenítése 
+    console.log(error);
+    const message = document.querySelector('.message');
+    message.innerText = 'Hiba történt az adatok lekérdezése közben';
+  });
+
+*/
+/*
+
+
+  const audio = document.getElementById('my-audio');
+audio.play();
+
+audio.pause();
+window.onbeforeunload = () => audio.pause();
+*/
