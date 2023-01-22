@@ -97,3 +97,12 @@ audio.play();
 audio.pause();
 window.onbeforeunload = () => audio.pause();
 */
+function odavissza(){
+const odavissza = document.getElementById("odavissza").check;
+if(odavissza==false){
+  document.getElementById("datumvissza").disabled=false;
+}
+else{
+  document.getElementById("datumvissza").disabled=true;
+}
+}

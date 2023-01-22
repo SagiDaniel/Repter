@@ -58,13 +58,17 @@ body{
   width:100%;
   height: 1000px;
 }
-form{
+
+.fizetes{
   background-color: #365367;
+  
+}
+
+form{
   margin: 0% 25% 0% 25%;
   border-radius: 30px;
   padding: 30px;
 }
-
 .right{
   float: right;
 }
@@ -73,4 +77,17 @@ form{
 }
 form label,h6{
   color: white;
+}
+#foglalas{
+background-color: dimgrey ;
+margin: 0% 25% 0% 25%;
+  border-radius: 25px;
+  padding: 40px;
+}
+input{
+  border-radius: 5px;
+  padding: 5px;
+}
+select{
+  border-radius: 5px;
 }

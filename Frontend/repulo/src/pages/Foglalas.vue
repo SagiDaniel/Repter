@@ -1,5 +1,5 @@
 <template>
-<Form>
+<Form class="fizetes">
     <h3 class="center">Foglalás</h3>
     <hr>
     <label for="vezetek" class="form-label">Vezeték név</label>
