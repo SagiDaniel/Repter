@@ -10,7 +10,7 @@ using RepterDB.Model;
 namespace RepterDB.Migrations
 {
     [DbContext(typeof(JaratContext))]
-    [Migration("20230124123318_Initial_Creation")]
+    [Migration("20230124152930_Initial_Creation")]
     partial class Initial_Creation
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -31,6 +31,9 @@ namespace RepterDB.Migrations
                     b.Property<int?>("CelVarosID")
                         .HasColumnType("int");
 
+                    b.Property<DateTime>("Indulas")
+                        .HasColumnType("datetime2");
+
                     b.Property<int>("KiinduloVarosID")
                         .HasColumnType("int");
 
@@ -40,6 +43,9 @@ namespace RepterDB.Migrations
                     b.Property<string>("Legitarsasag")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("RepulesiIdo")
+                        .HasColumnType("int");
 
                     b.HasKey("ID");
 
