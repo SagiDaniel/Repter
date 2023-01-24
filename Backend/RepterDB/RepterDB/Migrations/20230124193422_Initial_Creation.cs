@@ -32,7 +32,8 @@ namespace RepterDB.Migrations
                     CelVarosID = table.Column<int>(type: "int", nullable: true),
                     RepulesiIdo = table.Column<int>(type: "int", nullable: false),
                     Indulas = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    KmDij = table.Column<double>(type: "float", nullable: false)
+                    KmDij = table.Column<double>(type: "float", nullable: false),
+                    Atszallas = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {

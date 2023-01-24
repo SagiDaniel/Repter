@@ -38,11 +38,12 @@ namespace RepterDB
                 jaratContext.Jatatok.Add(new Model.Jarat()
                 {
                     Legitarsasag = temp1[0],
-                    KiinduloVaros = jaratContext.Varosok.Where(x => x.Nev == temp1[1]).First(),
-                    CelVaros = jaratContext.Varosok.Where(x => x.Nev == temp1[2]).First(),
+                    KiinduloVaros = jaratContext.Varosok.First(x => x.Nev == "Budapest"),
+                    CelVaros = jaratContext.Varosok.First(x => x.Nev == "London"),
                     RepulesiIdo = Convert.ToInt32(temp1[3]),
                     Indulas = Convert.ToDateTime(temp1[4]),
                     KmDij = Convert.ToInt32(temp1[5]),
+                    Atszallas = Convert.ToInt32(temp1[6]),
                 });
             }
             sr2.Close();
@@ -57,7 +58,7 @@ namespace RepterDB
                 string[] temp = sr.ReadLine().Split(';');
                 Varosok.Add(temp[0], Convert.ToInt32(temp[1]));
             }
-            
+          
             LetrehozVaros();
 
             LetrehozJarat();

@@ -26,6 +26,9 @@ namespace RepterDB.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<int>("Atszallas")
+                        .HasColumnType("int");
+
                     b.Property<int?>("CelVarosID")
                         .HasColumnType("int");
 
