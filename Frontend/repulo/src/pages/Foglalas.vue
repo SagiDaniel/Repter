@@ -17,15 +17,7 @@
     </div>
     <br>
     <label for="utasok">Utasok száma:</label>
-    <select name="utasok" id="utasok" onclick="utsaokvalasztas()">
-      <option value="egy">1</option>
-      <option value="ketto">2</option>
-      <option value="harom">3</option>
-      <option value="negy">4</option>
-      <option value="ot">5</option>
-      <option value="egyeb" >Egyéb</option>
-    </select>
-    <input type="number" id="utasokegyeb" class="form-control" placeholder="10" required disabled>
+    <input type="number" id="utasokegyeb" class="form-control" placeholder="10">
     <br>
     <h6>Átszállások száma:</h6>
     <hr width="150px" style="color: white;">
@@ -41,6 +33,7 @@
       <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault2">
       <label class="form-check-label" for="flexSwitchCheckDefault">2</label>
     </div>
+    
 
 <br>
     <div class="form-check">
