@@ -67,8 +67,6 @@ namespace RepterDB
             LetrehozVarosTXT();
             LetrehozJaratTXT();
 
-            //string[] asd = { "valami", "123", "ds" };
-
         }
     }
 }
