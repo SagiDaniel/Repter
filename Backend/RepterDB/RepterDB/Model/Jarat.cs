@@ -13,6 +13,8 @@ namespace RepterDB.Model
         public string Legitarsasag { get; set; }
         public virtual Varos KiinduloVaros { get; set; }
         public virtual Varos CelVaros { get; set; }
+        public int RepulesiIdo { get; set; }
+        public DateTime Indulas { get; set; }
         public double KmDij { get; set; }
     }
 }

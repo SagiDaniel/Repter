@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
+﻿using System;
+using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace RepterDB.Migrations
 {
@@ -29,6 +30,8 @@ namespace RepterDB.Migrations
                     Legitarsasag = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     KiinduloVarosID = table.Column<int>(type: "int", nullable: false),
                     CelVarosID = table.Column<int>(type: "int", nullable: true),
+                    RepulesiIdo = table.Column<int>(type: "int", nullable: false),
+                    Indulas = table.Column<DateTime>(type: "datetime2", nullable: false),
                     KmDij = table.Column<double>(type: "float", nullable: false)
                 },
                 constraints: table =>
