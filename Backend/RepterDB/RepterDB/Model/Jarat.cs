@@ -16,5 +16,6 @@ namespace RepterDB.Model
         public int RepulesiIdo { get; set; }
         public DateTime Indulas { get; set; }
         public double KmDij { get; set; }
+        public int Atszallas { get; set; }
     }
 }

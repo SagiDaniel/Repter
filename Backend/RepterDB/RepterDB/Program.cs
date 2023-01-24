@@ -7,7 +7,7 @@ namespace RepterDB
         static Model.JaratContext jaratContext = new Model.JaratContext();
         static Dictionary<string, int> Varosok = new Dictionary<string, int>();
 
-        static void LetrehozVaros()
+        static void LetrehozVarosTXT()
         {
             foreach (KeyValuePair<string, int> kvp in Varosok)
             {
@@ -27,26 +27,33 @@ namespace RepterDB
             jaratContext.SaveChanges();
         }
 
-        static void LetrehozJarat()
+        static void LetrehozJaratTXT()
         {
             string JaratFilePath = @"C:\Users\nemet\Downloads\Jarat.txt";
-
             StreamReader sr2 = new StreamReader(JaratFilePath);
             while (!sr2.EndOfStream)
             {
-                string[] temp1 = sr2.ReadLine().Split(';');
+                string[] temp = sr2.ReadLine().Split(';');
                 jaratContext.Jatatok.Add(new Model.Jarat()
                 {
-                    Legitarsasag = temp1[0],
-                    KiinduloVaros = jaratContext.Varosok.Where(x => x.Nev == temp1[1]).First(),
-                    CelVaros = jaratContext.Varosok.Where(x => x.Nev == temp1[2]).First(),
-                    RepulesiIdo = Convert.ToInt32(temp1[3]),
-                    Indulas = Convert.ToDateTime(temp1[4]),
-                    KmDij = Convert.ToInt32(temp1[5]),
+                    Legitarsasag = temp[0],
+                    KiinduloVaros = jaratContext.Varosok.First(x => x.Nev == temp[1]),
+                    CelVaros = jaratContext.Varosok.First(x => x.Nev == temp[2]),
+                    RepulesiIdo = Convert.ToInt32(temp[3]),
+                    Indulas = Convert.ToDateTime(temp[4]),
+                    KmDij = Convert.ToInt32(temp[5]),
+                    Atszallas = Convert.ToInt32(temp[6]),
                 });
             }
-            sr2.Close();
             jaratContext.SaveChanges();
+        }
+        static void LetrehozVaros()
+        {
+
+        }
+        static void LetrehozJarat()
+        {
+
         }
         static void Main(string[] args)
         {
@@ -57,10 +64,10 @@ namespace RepterDB
                 string[] temp = sr.ReadLine().Split(';');
                 Varosok.Add(temp[0], Convert.ToInt32(temp[1]));
             }
-            
-            LetrehozVaros();
+            LetrehozVarosTXT();
+            LetrehozJaratTXT();
 
-            LetrehozJarat();
+            //string[] asd = { "valami", "123", "ds" };
 
         }
     }
