@@ -15,11 +15,10 @@
                 <label for="datum">Indulás napja</label><br><input type="date" class="form-control" name="datum"
                     id="datum" required>
             </div>
-            <div class="col">
-                <div class="form-check form-switch">
-                    <input class="form-check-input" type="checkbox" id="labelsss">
-                    <label class="form-check-label" onclick="odavissza()" id="odavissza"
-                        for="flexSwitchCheckDefault">Oda-Vissza</label>
+            <div class="col d-flex align-self-center justify-content-center" >
+                <div class="form-check form-switch d-flex  justify-content-center ">
+                    <input class="form-check-input " onclick="odavissza()" type="checkbox" id="odavissza">
+                    <label class="form-check-label"  id="lavel" for="flexSwitchCheckDefault">Oda-Vissza</label>
                 </div>
             </div>
             <div class="col">
