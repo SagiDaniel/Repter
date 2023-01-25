@@ -17,7 +17,7 @@ namespace RepterAPI.Infrastructure
                 return;
             }
 
-            // A követendő jópélda.
+            //Példa.
             /*List<Varos> varos = new List<Varos>();
             varos.Add(new Varos()
             {
