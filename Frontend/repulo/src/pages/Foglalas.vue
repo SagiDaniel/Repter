@@ -16,26 +16,6 @@
       <input type="email" class="form-control" id="email" placeholder="valakivagyok@gmail.com" required>
     </div>
     <br>
-    <label for="utasok">Utasok száma:</label>
-    <input type="number" id="utasokegyeb" class="form-control" placeholder="10">
-    <br>
-    <h6>Átszállások száma:</h6>
-    <hr width="150px" style="color: white;">
-    <div class="form-check form-switch">
-      <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked0" checked>
-      <label class="form-check-label" for="flexSwitchCheckChecked">0</label>
-    </div>
-    <div class="form-check form-switch">
-      <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault1">
-      <label class="form-check-label" for="flexSwitchCheckDefault">1</label>
-    </div>
-    <div class="form-check form-switch">
-      <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault2">
-      <label class="form-check-label" for="flexSwitchCheckDefault">2</label>
-    </div>
-    
-
-<br>
     <div class="form-check">
       <input class="form-check-input" type="checkbox" value="" id="invalidCheck" onclick="check()" required>
       <label class="form-check-label" style="float:left;" for="invalidCheck">

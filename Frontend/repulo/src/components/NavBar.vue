@@ -14,19 +14,16 @@
       <div class="text-center mt-3 collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav mx-auto ">
           <li class="nav-item">
-            
             <router-link class="nav-link" to="/">Index</router-link>
           </li>
           <li class="nav-item">
-            
             <router-link class="nav-link" to="/Repulo">Repülők</router-link>
           </li>
           <li class="nav-item">
             <router-link class="nav-link" to="/Jaratok">Járatok</router-link>
           </li>
           <li class="nav-item">
-              <li><router-link class="dropdown-item" to="/Foglalas">Foglalás</router-link></li>
-              <li><button onclick="bezar()" class="dropdown-item">Bezárás</button></li>
+            <router-link class="nav-link" to="/Foglalas">Foglalás</router-link>
           </li>
         </ul>
       </div>

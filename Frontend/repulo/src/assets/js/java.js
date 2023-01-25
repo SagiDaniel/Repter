@@ -2,13 +2,13 @@
 
 function check(){
 const check = document.getElementById("vasar").checked;
-if(check==false)
+if(check==true)
 {
-    document.getElementById("vasar").disabled = true;
+    document.getElementById("vasar").disabled = false;
 }
 else
 {
-    document.getElementById("vasar").disabled = false;
+    document.getElementById("vasar").disabled = true;
 }
 }
 function vasarlas()
@@ -35,19 +35,8 @@ function torles()
   }
 }
 
-function bezar(){
-  var win = window.open("", "_self");
-  win.close();
-}
 
 
-/*
-function torles(){
-    var inputs = document.getElementsByTagName("input");
-    for (var i = 0; i < inputs.length; i++) {
-    inputs[i].value = "";
-  }
-}*/
 function utasokvalasztas(){
   const check = document.getElementById("utasok");
 if(check.value  =="egyeb")
@@ -98,11 +87,14 @@ audio.pause();
 window.onbeforeunload = () => audio.pause();
 */
 function odavissza(){
-const odavissza = document.getElementById("odavissza").check;
+const odavissza = document.getElementById("odavissza").checked;
 if(odavissza==false){
   document.getElementById("datumvissza").disabled=false;
 }
 else{
   document.getElementById("datumvissza").disabled=true;
 }
+document.getElementById("datumvissza").disabled=true;
 }
+
+/*Reülő hozzáadás */
