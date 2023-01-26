@@ -8,17 +8,17 @@
         Title="RepterWPF" Height="600" Width="1024">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="auto"/>
-            <RowDefinition Height="auto"/>
             <RowDefinition Height="*"/>
+            <RowDefinition Height="*" />
         </Grid.RowDefinitions>
-        <StackPanel Orientation="Horizontal" Grid.Row="0">
-            <Button Content="Adatok megtekintése"/>
-        </StackPanel>
-        <StackPanel Orientation="Horizontal" Grid.Row="1">
-            <Button Content="Járatok"/>
-        </StackPanel>
-        <Grid Name="playGround">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Name="playGround1" Grid.Column="0" Grid.Row="0">
+            <ListBox Name="Varos" />
+        </Grid>
+        <Grid Name ="playGround2" Grid.Column="1" Grid.Row="0">
             
         </Grid>
     </Grid>

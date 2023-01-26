@@ -20,9 +20,13 @@ namespace RepterWPF
     /// </summary>
     public partial class MainWindow : Window
     {
+        static List<string> Jaratlist = new List<string>();
+        static List<string> VarosList = new List<string>();
+        static List<string> LegitarsasagList = new List<string>();
         public MainWindow()
         {
             InitializeComponent();
+            
         }
     }
 }

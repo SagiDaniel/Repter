@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "D1isDs4Pyq4VlAcrfZOfU1br1BWHg6l5Ex12nRBkb8wwBxxnxCZikyy4zJqzayv6HpJM6LwaNRqiZKkMLrEq4A==",
+  "dgSpecHash": "Qj9tZOo2uVZKGh+qYMc3yMt9/tYn8VtGqKATmbA6L0JFni0PwPdtuQutW4VJj2b5gMbvKRir6Y+0AAZUFY/rKw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kata\\Desktop\\repulo_wpf\\repulo_wpf\\repulo_wpf.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\repos\\Repter\\repulo_wpf\\repulo_wpf\\repulo_wpf.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nemet\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\nemet\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\nemet\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\nemet\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
+  ],
   "logs": []
 }

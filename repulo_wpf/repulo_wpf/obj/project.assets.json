@@ -8,19 +8,24 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Kata\\.nuget\\packages\\": {}
+    "C:\\Users\\nemet\\.nuget\\packages\\": {},
+    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kata\\Desktop\\repulo_wpf\\repulo_wpf\\repulo_wpf.csproj",
+      "projectUniqueName": "D:\\repos\\Repter\\repulo_wpf\\repulo_wpf\\repulo_wpf.csproj",
       "projectName": "repulo_wpf",
-      "projectPath": "C:\\Users\\Kata\\Desktop\\repulo_wpf\\repulo_wpf\\repulo_wpf.csproj",
-      "packagesPath": "C:\\Users\\Kata\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kata\\Desktop\\repulo_wpf\\repulo_wpf\\obj\\",
+      "projectPath": "D:\\repos\\Repter\\repulo_wpf\\repulo_wpf\\repulo_wpf.csproj",
+      "packagesPath": "C:\\Users\\nemet\\.nuget\\packages\\",
+      "outputPath": "D:\\repos\\Repter\\repulo_wpf\\repulo_wpf\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Kata\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\nemet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -51,10 +56,29 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.10, 3.1.10]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.32, 3.1.32]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
@@ -63,7 +87,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.415\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }
