@@ -9,7 +9,6 @@ namespace RepterAPI.Controllers
     
     [ApiController]
     [Route("flight")]
-    [EnableCors(origins: "*", headers: "*", methods: "*"]
     public class JaratokController : Controller
     {
         private DBContext _context;

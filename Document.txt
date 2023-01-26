@@ -1,1 +1,10 @@
-2023.01.13. 3:00 vasarlas form keszitese - Sagi Daniel 
+API/ADATBÁZIS
+API
+Amikor elindítjuk a projektet, akkor a program.cs-ből meghívjuk a controllereket, amikben oldjuk meg, hogy minden táblát elérjünk az API-n keresztül és tudjunk hozzáadni, törölni, módosítani.
+Utána a DBContext meghívása, amiben vannak a szerver configorációi és a migration.
+Utána megoldjuk, hogy akármelyik portról elérhető legyen az API.
+Meghívjuk a DBSeeder-t, amivel az alap adatokat visszük fel az adatbázisba.
+
+Adatbázis
+Minden táblának az oszlopait a model mappában lévő külön .cs-kben vesszük fel vesszük fel.
+Az SQL szervert doscker-en futt a hivatalos microsoft sql server image alapján és az adatbázist microsoft sql server managment studio-ben kezeljük.
