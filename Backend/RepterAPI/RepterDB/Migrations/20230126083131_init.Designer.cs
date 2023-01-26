@@ -10,7 +10,7 @@ using RepterAPI.Infrastructure;
 namespace RepterAPI.Infrastructure.Migrations
 {
     [DbContext(typeof(DBContext))]
-    [Migration("20230125202841_init")]
+    [Migration("20230126083131_init")]
     partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

@@ -7,7 +7,7 @@
             </div>
             <div class="col">
                 <label for="hova">Hova</label> <input type="text" name="hova" class="form-control" id="hova" required
-                    placeholder="Anyádhoz"> <br>
+                    placeholder="Haza"> <br>
             </div>
         </div>
         <div class="row">
@@ -22,11 +22,11 @@
                 </div>
             </div>
             <div class="col">
-                <label for="datum">Érkezés napja</label><br><input type="date" class="form-control" name="datum"
+                <label for="datum">Hazaút napja</label><br><input type="date" class="form-control" name="datum"
                     id="datumvissza" disabled>
             </div>
         </div>
-
+        <div id="hazaut"></div>
         <br>
         <div class="center">
             <label for="utoasok">

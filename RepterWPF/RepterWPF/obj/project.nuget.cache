@@ -1,8 +1,12 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "0HCNzgaO98BZbleZtDzuj0EBNlaStWNVDgwbd4V17dZrYe/wCSxGH4011LXsl2G+gZBPkNrsk73fQ2jrenAGpA==",
+=======
+  "dgSpecHash": "3g2vpEFaojwfWzWkTgg1CG4lnbO7M8/6uXNRZWXaH40qBS1Q0eV5G4JyEXk6HHnq0dsjOE6mc99KhSAHyg060Q==",
+>>>>>>> 770c790252616075dbb201b1b6cfd92117168ca2
   "success": true,
-  "projectFilePath": "D:\\repos\\Repter\\RepterWPF\\RepterWPF\\RepterWPF.csproj",
+  "projectFilePath": "C:\\Users\\Dani\\Desktop\\reptér\\Repter\\RepterWPF\\RepterWPF\\RepterWPF.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

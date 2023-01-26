@@ -57,39 +57,60 @@ namespace RepterAPI.Infrastructure
                     KmDij = 2000,
                     Legitarsasag = new Legitarsasag
                     {
-                        Nev = "MALÉV"
+                        Nev = "RyanAir"
                     },
-                    RepulesiIdo = 10,
+                    RepulesiIdo = 200,
                     CelVaros = new Varos()
                     {
-                        Nev = "Bukarest",
-                        Nepesseg = 2000000
+                        Nev = "London",
+                        Nepesseg = 8908081
                     },
                     KiinduloVaros = new Varos()
                     {
-                        Nev = "Bukarest",
-                        Nepesseg = 2000000
+                        Nev = "Madrid",
+                        Nepesseg = 3280782
                     }
                 },
                 new Jarat()
                 {
-                    Indulas = new DateTime(2023,01,25,10,30,00),
-                    Atszallas = 0,
-                    KmDij = 1001.6,
+                    Indulas = new DateTime(2023,01,30,10,30,00),
+                    Atszallas = 1,
+                    KmDij = 5500,
                     Legitarsasag = new Legitarsasag
                     {
-                        Nev = "MALÉV"
+                        Nev = "BritishAir"
                     },
                     RepulesiIdo = 10,
                     CelVaros = new Varos()
                     {
-                        Nev = "Bukarest",
-                        Nepesseg = 2000000
+                        Nev = "Miami",
+                        Nepesseg = 439890
                     },
                     KiinduloVaros = new Varos()
                     {
-                        Nev = "Bukarest",
-                        Nepesseg = 2000000
+                        Nev = "Párizs",
+                        Nepesseg = 2165423
+                    }
+                },
+                new Jarat()
+                {
+                    Indulas = new DateTime(2023,01,30,10,30,00),
+                    Atszallas = 2,
+                    KmDij = 6000,
+                    Legitarsasag = new Legitarsasag
+                    {
+                        Nev = "BritishAir"
+                    },
+                    RepulesiIdo = 10,
+                    CelVaros = new Varos()
+                    {
+                        Nev = "Frankfurt",
+                        Nepesseg = 753056
+                    },
+                    KiinduloVaros = new Varos()
+                    {
+                        Nev = "Sydney",
+                        Nepesseg = 4840600
                     }
                 },
             };

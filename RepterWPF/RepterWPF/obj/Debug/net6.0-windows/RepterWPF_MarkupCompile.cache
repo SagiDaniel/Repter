@@ -4,16 +4,20 @@
 winexe
 C#
 .cs
-D:\repos\Repter\RepterWPF\RepterWPF\obj\Debug\net6.0-windows\
+C:\Users\Dani\Desktop\reptér\Repter\RepterWPF\RepterWPF\obj\Debug\net6.0-windows\
 RepterWPF
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-D:\repos\Repter\RepterWPF\RepterWPF\App.xaml
+C:\Users\Dani\Desktop\reptér\Repter\RepterWPF\RepterWPF\App.xaml
 11407045341
 
 3-1233169557
+<<<<<<< HEAD
 194237474483
+=======
+194-1797456590
+>>>>>>> 770c790252616075dbb201b1b6cfd92117168ca2
 MainWindow.xaml;
 
 False

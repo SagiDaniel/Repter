@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\repos\\Repter\\RepterWPF\\RepterWPF\\RepterWPF.csproj": {}
+    "C:\\Users\\Dani\\Desktop\\reptér\\Repter\\RepterWPF\\RepterWPF\\RepterWPF.csproj": {}
   },
   "projects": {
-    "D:\\repos\\Repter\\RepterWPF\\RepterWPF\\RepterWPF.csproj": {
+    "C:\\Users\\Dani\\Desktop\\reptér\\Repter\\RepterWPF\\RepterWPF\\RepterWPF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\repos\\Repter\\RepterWPF\\RepterWPF\\RepterWPF.csproj",
+        "projectUniqueName": "C:\\Users\\Dani\\Desktop\\reptér\\Repter\\RepterWPF\\RepterWPF\\RepterWPF.csproj",
         "projectName": "RepterWPF",
-        "projectPath": "D:\\repos\\Repter\\RepterWPF\\RepterWPF\\RepterWPF.csproj",
-        "packagesPath": "C:\\Users\\nemet\\.nuget\\packages\\",
-        "outputPath": "D:\\repos\\Repter\\RepterWPF\\RepterWPF\\obj\\",
+        "projectPath": "C:\\Users\\Dani\\Desktop\\reptér\\Repter\\RepterWPF\\RepterWPF\\RepterWPF.csproj",
+        "packagesPath": "C:\\Users\\Dani\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dani\\Desktop\\reptér\\Repter\\RepterWPF\\RepterWPF\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\nemet\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Dani\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -62,7 +58,11 @@
               "privateAssets": "none"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+>>>>>>> 770c790252616075dbb201b1b6cfd92117168ca2
         }
       }
     }
