@@ -23,6 +23,11 @@ namespace RepterAPI
 
             var app = builder.Build();
 
+            app.UseCors(builder => builder
+                .AllowAnyOrigin()
+                .AllowAnyMethod()
+                .AllowAnyHeader());
+
             // Az indulás után a DBSeeder seedelõ eljárását hivom meg
             using (var scope = app.Services.CreateScope())
             {

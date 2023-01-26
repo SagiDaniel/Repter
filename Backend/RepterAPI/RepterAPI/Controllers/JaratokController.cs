@@ -1,12 +1,15 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Cors;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using RepterAPI.Infrastructure;
 using RepterAPI.Infrastructure.Model;
 
 namespace RepterAPI.Controllers
 {
+    
     [ApiController]
     [Route("flight")]
+    [EnableCors(origins: "*", headers: "*", methods: "*"]
     public class JaratokController : Controller
     {
         private DBContext _context;
