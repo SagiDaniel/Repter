@@ -8,3 +8,22 @@ Meghívjuk a DBSeeder-t, amivel az alap adatokat visszük fel az adatbázisba.
 Adatbázis
 Minden táblának az oszlopait a model mappában lévő külön .cs-kben vesszük fel vesszük fel.
 Az SQL szervert doscker-en futt a hivatalos microsoft sql server image alapján és az adatbázist microsoft sql server managment studio-ben kezeljük.
+
+A fő oldalunkon található 4 aloldal azaz a menü:(Index,Repülők,Járatok,Foglalás)
+Az index oldalunk a bevezető ahol egy kép található és a többi oldal melyekre
+rákattintva funkciójuknak megfelelő oldalra visznek.
+A repülők oldal egy új adat fevételéért szolgál melynek megnyitásakor elindul egy zene,
+van két labelunk az egyikre Város a másikra Lakosság van irva, alattuk 1-1 input mező ahova
+a Város nevét tudjuk beirni ott input textünk van és ahova a Lakosság számát ott input numberunk van.
+Ezeke után van egy Új adat nevu input buttonunk amire ha rákattintunk akkor az imént megadott Város nevét
+ és Lakosságának számát eltároljuk az adatbázisban.
+A járatok oldalon tudunk járatot foglalni ahol meg tudjuk adni hogy Honnan szeretnénk utazni és hova amiknek a beviteli mezőjük input text
+majd ki tudjuk választani, hogy melyik nap akarunk indulni és mikor akarunk hazajönni,amiket egy naptárba tudunk megadni.
+Az utasoknál ki lehet választani hogy felnőtt,csecsemő,gyerek,vagy kamasz az utas,ezek megadásával a gyerekekre kedvezményt kapunk.
+Az oldal alján egy foglalás gomb található aminek a funkciója az adatok eltárolásas azaz a foglalás.
+Ha ez sikerek akkor a foglalás oldalára kalauzol át minket az oldal ahol a nevünket kell megadnunk és az email cimunket,
+az email cimnél van egy @-gomb melyre ha rákattintunk akkor beir egy kukac jelet,aminek segitségével könnyebb az email cimunket megadni.
+
+  
+
+ 
