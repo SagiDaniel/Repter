@@ -11,6 +11,7 @@ else
     document.getElementById("vasar").disabled = true;
 }
 }
+
 function vasarlas()
 {
     const vezeteknev =document.getElementById("vezetek").value;
@@ -86,15 +87,96 @@ audio.play();
 audio.pause();
 window.onbeforeunload = () => audio.pause();
 */
+const hazais=0;
 function odavissza(){
 const odavissza = document.getElementById("odavissza").checked;
+
 if(odavissza==false){
   document.getElementById("datumvissza").disabled=false;
+  hazais=0;
 }
 else{
   document.getElementById("datumvissza").disabled=true;
+  hazais=1;
 }
-document.getElementById("datumvissza").disabled=true;
+
+
+
 }
 
 /*Reülő hozzáadás */
+function varosuj(){
+  
+const varosnev = document.getElementById("varos").value;
+const varosletszam = documentm.getElementById("letszam").value;
+if(varosnev!="")
+{
+
+
+if(varosletszam!="")
+{
+
+}
+
+}} 
+function foglalas(){
+ //áfa 27%
+ //kerozin távolság*0,10+tavolsag
+ //celallomas populacio 0m-2m=>5% 2m-10m=>7,5%   10m+=10% 
+ //csoportos kedvezmeny 10fo 10% vegosszegbol
+ //16ev alatt vegosszeg 80%
+ /* 
+  const felnott = document.getElementById("felnott").value;
+  const kamasz = document.getElementById("kamasz").value;
+  const gyerek = document.getElementById("gyerek").value;
+  const csecsemo = document.getElementById("csecsemo").value;
+  const uticel = document.getElementById().value;
+  const uticellakossag=document.getElementById().value;
+  const uticelszorzo=0;
+  const csoport = kamasz+felnott+gyerek+csecsemo;
+  if(uticellakossag>10000000)
+  {
+    uticelszorzo=0,10;
+  }
+  else if(uticellakossag>2000000)
+  {
+    uticelszorzo=0,05;
+  }
+  else  
+  {
+    uticelszorzo=0,02;
+  }
+  const vegosszeg=0;
+  const kerozinar=0;
+  const arseged=0;
+  kerozinar = (uticel*0,27+uticel)*uticelszorzo;//ÁFA+lakossagszorzo
+
+  if(felnott!=0)
+  {
+    vegosszeg+=kerozinar*felnott;
+  }
+  if(kamasz!=0)
+  {
+    arseged=kerozinar*kamasz;
+    vegosszeg+=arseged*0,80;
+  }
+  if(gyerek!=0)
+  {
+    arseged=kerozinar*gyerek;
+    vegosszeg+=arseged*0,80;
+  }
+  if(csecsemo!=0)
+  {
+    arseged=kerozinar*csecsemo;
+    vegosszeg+=arseged*0,80;
+  }
+  if(csoport>9)
+  {
+    vegosszeg=vegosszeg*0,80;
+  }
+  if(hazais=1)
+  {
+    vegosszeg=vegosszeg*2;
+  }
+  */
+}

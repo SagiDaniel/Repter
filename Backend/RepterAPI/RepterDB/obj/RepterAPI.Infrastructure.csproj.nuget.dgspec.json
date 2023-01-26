@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\repos\\Repter\\Backend\\RepterAPI\\RepterDB\\RepterAPI.Infrastructure.csproj": {}
+    "C:\\Users\\Dani\\Desktop\\reptér\\Repter\\Backend\\RepterAPI\\RepterDB\\RepterAPI.Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\repos\\Repter\\Backend\\RepterAPI\\RepterDB\\RepterAPI.Infrastructure.csproj": {
+    "C:\\Users\\Dani\\Desktop\\reptér\\Repter\\Backend\\RepterAPI\\RepterDB\\RepterAPI.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\repos\\Repter\\Backend\\RepterAPI\\RepterDB\\RepterAPI.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Dani\\Desktop\\reptér\\Repter\\Backend\\RepterAPI\\RepterDB\\RepterAPI.Infrastructure.csproj",
         "projectName": "RepterAPI.Infrastructure",
-        "projectPath": "D:\\repos\\Repter\\Backend\\RepterAPI\\RepterDB\\RepterAPI.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\nemet\\.nuget\\packages\\",
-        "outputPath": "D:\\repos\\Repter\\Backend\\RepterAPI\\RepterDB\\obj\\",
+        "projectPath": "C:\\Users\\Dani\\Desktop\\reptér\\Repter\\Backend\\RepterAPI\\RepterDB\\RepterAPI.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Dani\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dani\\Desktop\\reptér\\Repter\\Backend\\RepterAPI\\RepterDB\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\nemet\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Dani\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -83,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -26,3 +26,17 @@ D:\repos\Repter\Backend\RepterAPI\RepterDB\obj\Debug\net6.0\refint\RepterAPI.Inf
 D:\repos\Repter\Backend\RepterAPI\RepterDB\obj\Debug\net6.0\RepterAPI.Infrastructure.pdb
 D:\repos\Repter\Backend\RepterAPI\RepterDB\obj\Debug\net6.0\RepterAPI.Infrastructure.genruntimeconfig.cache
 D:\repos\Repter\Backend\RepterAPI\RepterDB\obj\Debug\net6.0\ref\RepterAPI.Infrastructure.dll
+C:\Users\Dani\Desktop\reptér\Repter\Backend\RepterAPI\RepterDB\bin\Debug\net6.0\RepterAPI.Infrastructure.deps.json
+C:\Users\Dani\Desktop\reptér\Repter\Backend\RepterAPI\RepterDB\bin\Debug\net6.0\RepterAPI.Infrastructure.runtimeconfig.json
+C:\Users\Dani\Desktop\reptér\Repter\Backend\RepterAPI\RepterDB\bin\Debug\net6.0\RepterAPI.Infrastructure.dll
+C:\Users\Dani\Desktop\reptér\Repter\Backend\RepterAPI\RepterDB\bin\Debug\net6.0\RepterAPI.Infrastructure.pdb
+C:\Users\Dani\Desktop\reptér\Repter\Backend\RepterAPI\RepterDB\obj\Debug\net6.0\RepterAPI.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Dani\Desktop\reptér\Repter\Backend\RepterAPI\RepterDB\obj\Debug\net6.0\RepterAPI.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dani\Desktop\reptér\Repter\Backend\RepterAPI\RepterDB\obj\Debug\net6.0\RepterAPI.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Dani\Desktop\reptér\Repter\Backend\RepterAPI\RepterDB\obj\Debug\net6.0\RepterAPI.Infrastructure.AssemblyInfo.cs
+C:\Users\Dani\Desktop\reptér\Repter\Backend\RepterAPI\RepterDB\obj\Debug\net6.0\RepterAPI.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Dani\Desktop\reptér\Repter\Backend\RepterAPI\RepterDB\obj\Debug\net6.0\RepterAPI.Infrastructure.dll
+C:\Users\Dani\Desktop\reptér\Repter\Backend\RepterAPI\RepterDB\obj\Debug\net6.0\refint\RepterAPI.Infrastructure.dll
+C:\Users\Dani\Desktop\reptér\Repter\Backend\RepterAPI\RepterDB\obj\Debug\net6.0\RepterAPI.Infrastructure.pdb
+C:\Users\Dani\Desktop\reptér\Repter\Backend\RepterAPI\RepterDB\obj\Debug\net6.0\RepterAPI.Infrastructure.genruntimeconfig.cache
+C:\Users\Dani\Desktop\reptér\Repter\Backend\RepterAPI\RepterDB\obj\Debug\net6.0\ref\RepterAPI.Infrastructure.dll
