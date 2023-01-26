@@ -4,10 +4,10 @@
     <hr>
     <label for="vezetek" class="form-label">Vezeték név</label>
     <br>
-    <input type="text" id="vezetek" class="form-control" placeholder="Trap" required>
+    <input type="text" pattern="^[a-zA-Z]+$" id="vezetek" class="form-control" placeholder="Trap" required>
     <br>
     <label for="kereszt" class="form-label">Keresztév név</label><br>
-    <input type="text" class="form-control" id="kereszt" placeholder="Pista" required>
+    <input type="text" pattern="^[a-zA-Z]+$" class="form-control" id="kereszt" placeholder="Pista" required>
     <br>
     <label for="validationCustom02" class="form-label">Email</label>
     <div class="input-group has-validation">
@@ -28,4 +28,5 @@
     </div>
 
   </Form>
+ 
 </template>
